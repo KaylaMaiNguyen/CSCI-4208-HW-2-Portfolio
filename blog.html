@@ -1,0 +1,77 @@
+<head>
+    <link rel="icon" href="assets1/icon.jpg">
+    <title>Kayla Nguyen</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/NavBar.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contactPage.css">
+</head>
+<body class="bg-info text-light">
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house"></i> Kayla Nguyen
+        </a>
+        <ul>
+            <li><a href="about.html" class="text-primary"> About </a></li>
+            <li><a href="blog.html" class="text-info"> Blog</a></li>
+            <li><a href="projects.html" class="navCode"> Code </a></li>
+            <li><a href="contact.html" class="navContact"> Contact </a></li>
+        </ul>
+    </nav>
+    <!--Blog page-->
+    <div class="container mt-4">
+        <h1>
+            <i class="bi bi-chat-dots"></i> Blog
+        </h1>
+        <hr>
+    </div>
+
+<!--Carousel -->
+<div id="blog-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+    <!-- Carousel Menu -->
+<!-- Carousel Body -->
+<div class="carousel-inner text-center">
+    <!-- Slide 1 -->
+    <div id="slide-1" class="carousel-item active">
+        <h3 class="card-title"> Knock Off Flappy Bird </h3>
+        <img class="img-fluid" src="assets1/yellowBird.jpg">
+        <div class="card-footer">
+            <a href="https://kaylamainguyen.github.io/CSCI-4208-HW-3/" class=class="btn btn-outline" type="button"
+                role="button"> Play me!</a>
+            <hr></hr>
+            <a href="HW3Blog.html" class=class="btn btn-outline" type="button"
+                role="button"> Read how I was made! </a>
+        </div>
+        <div class="carousel-caption">
+        </div>
+    </div>
+    <!-- Slide 2 -->
+    <div id="slide-2" class="carousel-item">
+        <h3 class="card-title"> Learn about my group project! </h3>
+        <img class="img-fluid" src="assets1/team.jpg">
+        <div class="card-footer">
+        <a href="ProjectBlog.html" class=class="btn btn-outline" type="button" 
+        role="button"> Learn about our project!</a>
+        <div class="carousel-caption">
+        </div>
+    </div>
+</div>
+<!-- Carousel Controls -->
+    <a class="carousel-control-prev" href="#blog-carousel" role="button" data-bs-slide="prev">
+        <i class="carousel-control-prev-icon"></i>
+    </a>
+    <a class="carousel-control-next" href="#blog-carousel" role="button" data-bs-slide="next">
+        <i class="carousel-control-next-icon"></i>
+    </a>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
